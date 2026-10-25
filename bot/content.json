@@ -1,0 +1,681 @@
+{
+  "_aide": "Contenu ÉDITORIAL du rapport (non récupéré automatiquement). Les prix, RSI, MACD, MA50/MA200, Fear & Greed, VIX, crypto et Reddit sont, eux, calculés chaque matin. Mettez à jour ce fichier quand vous revoyez vos cibles/commentaires; la date 'as_of' s'affiche dans le rapport et un avertissement apparaît quand le contenu vieillit.",
+  "editorial_as_of": "2026-10-22",
+  "highlights": [
+    "Marchés : le S&P 500 a clos la semaine du 16 octobre à 7 659,44 (−1,97 %) et le Nasdaq à 26 140,03 (−4,4 %); le 22 octobre, le S&P 500 a cédé 1,21 % à 7 663,43, le Nasdaq 2,60 % à 26 008,86 (pire séance depuis juin) et le Dow a clos à 52 873,28 (+0,02 %).",
+    "Sentiment : l'AAII du 21 octobre donne 36,9 % de haussiers contre 45,8 % de baissiers (écart de −8,9 points), contre 38,7 % et 41,6 % la semaine précédente : le pessimisme progresse, mais reste loin du seuil d'achat contrarien (−20).",
+    "Résultats : Meta a perdu 6,98 % le 22 octobre (revenus de 64,6 G$, +26 %; dépenses d'investissement de 34,9 G$; flux de trésorerie disponible de −2,12 G$; prévision d'investissements 2026 de 135 à 145 G$), ce qui ravive les craintes sur le rendement des dépenses en IA. Tesla a reculé de 3,08 % (revenus d'environ 28 G$, bénéfice net en baisse de 44 % à 787 M$, BPA ajusté de 0,48 $). Lam Research a chuté de 11,76 %.",
+    "Taux et énergie : le Brent a clos à 112,91 $ (+2,64 %, plus haut en cinq mois après une attaque houthie en Arabie saoudite) et le WTI à 99,09 $; l'or a perdu 2,83 % sous 4 100 $; le rendement du 10 ans américain a reculé de 19 points de base à 4,953 %, sa plus forte baisse quotidienne depuis mars 2023. L'IPC de septembre est ressorti à 3,7 % (3,6 % attendu).",
+    "Semi-conducteurs et rotation : l'indice des semi-conducteurs de Philadelphie a perdu 3,8 % le 16 octobre, le VIX a atteint son plus haut intrajournalier en quatre mois, et les valeurs défensives ont pris le relais le 22 octobre (Procter & Gamble +5,58 %, Lockheed Martin près de +7 %). JPMorgan a relevé Intel à Neutre (cible de 85 $); le titre reste à environ 36 % sous son sommet de juin.",
+    "À surveiller : la décision de la Réserve fédérale à la fin d'octobre et l'indice PMI composite d'octobre (23 octobre). Le Bitcoin est repassé brièvement sous 81 000 $ (environ −3,5 % sur 24 h)."
+  ],
+  "detail_blocks": [
+    {
+      "title": "TESLA (TSLA) ET META — LES DÉPENSES EN IA SOUS LA LOUPE (22 OCT.)",
+      "text": "Les résultats du troisième trimestre du 21 octobre ont fait reculer les deux titres le lendemain. Tesla (−3,08 %) a publié des revenus d'environ 28 G$, un bénéfice net en baisse de 44 % à 787 M$, un BPA ajusté de 0,48 $, un flux de trésorerie disponible d'environ 1,5 G$ et a abaissé ses investissements 2026 à environ 20 G$. Meta (−6,98 %) affiche des revenus de 64,6 G$ (+26 %), mais des investissements de 34,9 G$ pour le trimestre et un flux de trésorerie disponible négatif de 2,12 G$. Le marché sanctionne les entreprises dont les dépenses en IA progressent plus vite que les bénéfices : un contexte qui pèse sur le Nasdaq (−2,60 % le 22 octobre) et sur les semi-conducteurs, dont Lam Research (−11,76 %). Tesla figure dans notre liste des titres surévalués; ses fondamentaux de bénéfices en baisse, combinés à un P/E très élevé, rendent la lecture de prudence cohérente."
+    },
+    {
+      "title": "MICRON (MU) — RÉSULTATS RECORD, TITRE SOUS SON SOMMET (AU 13 OCT.)",
+      "text": "Micron a publié un T4 de l'exercice 2026 avec 54,2 G$ de revenus (+31 % sur le trimestre), un BPA non-GAAP de 33,42 $ contre 31,35 $ attendu et une marge brute de 87 %. La direction vise 61,5 G$ de revenus au prochain trimestre. Le titre reste pourtant à environ 953 $, soit près de 24 % sous son sommet du 25 juin, avec un P/E prévisionnel d'environ 5,4. Les analystes sont partagés sur la durabilité du cycle : Goldman Sachs et Mizuho ont relevé leurs cibles, Morningstar a baissé sa juste valeur à 700 $. Un titre cyclique à P/E bas n'est pas sans risque : le marché anticipe peut-être un sommet de cycle."
+    },
+    {
+      "title": "SEMI-CONDUCTEURS — ROTATION ET MÉMOIRE SOUS PRESSION (AU 13 OCT.)",
+      "text": "Les ETF de semi-conducteurs (SMH, SOXX) ont reculé d'environ 0,5 % le 9 octobre sous l'effet de NVIDIA, AMD, Intel et Micron, et les titres de mémoire (SanDisk, SK Hynix) ont perdu 4 à 6 % le 12 octobre. NVIDIA se négocie à environ 19 fois les bénéfices prévisionnels avec une cible de consensus 44 % plus haute; AMD, à 54 fois, n'offre plus la même marge de sécurité."
+    },
+    {
+      "title": "LOGICIELS — VALORISATIONS EN COMPRESSION OU ENCORE TENDUES (AU 13 OCT.)",
+      "text": "Le secteur est très dispersé. Salesforce (P/E prévisionnel de 16) et Adobe (environ 9) se négocient à des multiples bas, mais Adobe n'obtient qu'une cote Conserver. À l'inverse, Palantir (environ 110 fois), CrowdStrike (environ 185 fois) et Palo Alto (environ 95 fois) incorporent de très hautes attentes : leurs cibles de consensus sont proches du cours ou en dessous."
+    },
+    {
+      "title": "SPACEX, TÉLÉCOMS ET ASTS — CHOC CONCURRENTIEL (AU 13 OCT.)",
+      "text": "L'accord de SpaceX pour acquérir un portefeuille de spectre bas (estimé à environ 8 G$ par Roth Capital) a fait chuter T-Mobile (-12,2 %), AT&T (-9,7 %) et Verizon (-9,1 %), et pénalisé AST SpaceMobile, qui visait aussi ces fréquences. La direction d'AST affirme que ses partenaires détiennent déjà environ 1 000 MHz utilisables. Titre spéculatif : à surveiller, pas à poursuivre."
+    },
+    {
+      "title": "CRYPTO — LECTURE AUTOMATIQUE",
+      "text": "Les prix du Bitcoin et le Fear & Greed crypto sont recalculés chaque matin (voir le tableau de bord). Le commentaire éditorial ne cite pas de niveau précis, faute de source vérifiée au 13 octobre. Strategy (MSTR) reste un proxy à effet de levier du Bitcoin : sa capitalisation recule d'environ 32 % sur l'année."
+    }
+  ],
+  "undervalued": [
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "sector": "Semi-conducteurs",
+      "bucket": "Semi-conducteurs",
+      "target": 1560.57,
+      "pe_fwd": 5.4,
+      "sector_pe": 28,
+      "conviction": 5,
+      "insider": "NEUTRE",
+      "industry": "Semi-conducteurs"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "sector": "Cloud / IA",
+      "bucket": "IA / Cloud / Logiciels",
+      "target": 237.97,
+      "pe_fwd": 16.8,
+      "sector_pe": 28,
+      "conviction": 4,
+      "insider": "NEUTRE",
+      "industry": "Logiciels et infonuagique"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "sector": "Semi-conducteurs",
+      "bucket": "Semi-conducteurs",
+      "target": 531.31,
+      "pe_fwd": 20.6,
+      "sector_pe": 28,
+      "conviction": 5,
+      "insider": "NEUTRE",
+      "industry": "Semi-conducteurs"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "sector": "Semi-IA",
+      "bucket": "Semi-conducteurs",
+      "target": 328.72,
+      "pe_fwd": 18.9,
+      "sector_pe": 28,
+      "conviction": 5,
+      "insider": "NEUTRE",
+      "industry": "Semi-conducteurs"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Équip. semi.",
+      "bucket": "Semi-conducteurs",
+      "target": 635.33,
+      "pe_fwd": 26.3,
+      "sector_pe": 28,
+      "conviction": 5,
+      "insider": "NEUTRE",
+      "industry": "Semi-conducteurs"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "sector": "E-commerce / Cloud",
+      "bucket": "IA / Cloud / Logiciels",
+      "target": 331.2,
+      "pe_fwd": 27.6,
+      "sector_pe": 30,
+      "conviction": 5,
+      "insider": "NEUTRE",
+      "industry": "Plateformes Internet"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "sector": "SaaS / CRM",
+      "bucket": "IA / Cloud / Logiciels",
+      "target": 285.68,
+      "pe_fwd": 16.2,
+      "sector_pe": 28,
+      "conviction": 4,
+      "insider": "NEUTRE",
+      "industry": "Logiciels et infonuagique"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "sector": "IA / Cloud / Pub",
+      "bucket": "IA / Cloud / Logiciels",
+      "target": 430.4,
+      "pe_fwd": 26.3,
+      "sector_pe": 25,
+      "conviction": 5,
+      "insider": "NEUTRE",
+      "industry": "Plateformes Internet"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems",
+      "sector": "Réseau",
+      "bucket": "Cybersécurité / Réseau",
+      "target": 136.16,
+      "pe_fwd": 22.4,
+      "sector_pe": 22,
+      "conviction": 4,
+      "insider": "NEUTRE",
+      "industry": "Cybersécurité et réseaux"
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe",
+      "sector": "SaaS créatif",
+      "bucket": "IA / Cloud / Logiciels",
+      "target": 272.31,
+      "pe_fwd": 8.8,
+      "sector_pe": 28,
+      "conviction": 3,
+      "insider": "NEUTRE",
+      "industry": "Logiciels et infonuagique"
+    }
+  ],
+  "overvalued": [
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "sector": "EV / Robotique",
+      "bucket": "Autres (EV, spatial)",
+      "pe": 192.1,
+      "sector_pe": 20,
+      "risk": "TRÈS ÉLEVÉ",
+      "insider": "NEUTRE",
+      "industry": "Automobile et robotique"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "sector": "Data / Gouv.",
+      "bucket": "IA / Cloud / Logiciels",
+      "pe": 109.8,
+      "sector_pe": 35,
+      "risk": "TRÈS ÉLEVÉ",
+      "insider": "NEUTRE",
+      "industry": "Logiciels et infonuagique"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Cybersécurité",
+      "bucket": "Cybersécurité / Réseau",
+      "pe": 185.2,
+      "sector_pe": 40,
+      "risk": "TRÈS ÉLEVÉ",
+      "insider": "NEUTRE",
+      "industry": "Cybersécurité et réseaux"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "sector": "Cloud / Data",
+      "bucket": "IA / Cloud / Logiciels",
+      "pe": 142.0,
+      "sector_pe": 50,
+      "risk": "TRÈS ÉLEVÉ",
+      "insider": "NEUTRE",
+      "industry": "Logiciels et infonuagique"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Cybersécurité",
+      "bucket": "Cybersécurité / Réseau",
+      "pe": 94.8,
+      "sector_pe": 40,
+      "risk": "ÉLEVÉ",
+      "insider": "NEUTRE",
+      "industry": "Cybersécurité et réseaux"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Dev.",
+      "sector": "Semi-conducteurs",
+      "bucket": "Semi-conducteurs",
+      "pe": 54.5,
+      "sector_pe": 28,
+      "risk": "ÉLEVÉ",
+      "insider": "NEUTRE",
+      "industry": "Semi-conducteurs"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "sector": "Semi-conducteurs",
+      "bucket": "Semi-conducteurs",
+      "pe": 60.7,
+      "sector_pe": 28,
+      "risk": "ÉLEVÉ",
+      "insider": "NEUTRE",
+      "industry": "Semi-conducteurs"
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet",
+      "sector": "Cybersécurité",
+      "bucket": "Cybersécurité / Réseau",
+      "pe": 54.3,
+      "sector_pe": 40,
+      "risk": "ÉLEVÉ",
+      "insider": "NEUTRE",
+      "industry": "Cybersécurité et réseaux"
+    },
+    {
+      "ticker": "DUOL",
+      "name": "Duolingo",
+      "sector": "Edtech / IA",
+      "bucket": "IA / Cloud / Logiciels",
+      "pe": 53.5,
+      "sector_pe": 40,
+      "risk": "MODÉRÉ",
+      "insider": "NEUTRE",
+      "industry": "Logiciels et infonuagique"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "sector": "Space Tech",
+      "bucket": "Autres (EV, spatial)",
+      "pe": null,
+      "sector_pe": null,
+      "risk": "EXTRÊME",
+      "insider": "NEUTRE",
+      "industry": "Spatial et télécoms"
+    }
+  ],
+  "valuation_note": "Cibles et P/E : données du 13 octobre 2026 (clôture; non mises à jour le 22 octobre); commentaires et AAII mis à jour le 22 octobre. Cibles = consensus d'analystes et P/E prévisionnels (« forward ») tirés de StockAnalysis.com; médianes sectorielles, convictions (5 = Achat fort, 4 = Achat, 3 = Conserver) et signaux d'initiés sont des saisies éditoriales. Les signaux d'initiés restent à NEUTRE tant qu'ils ne sont pas vérifiés (SEC EDGAR / SEDI).",
+  "aaii": {
+    "as_of": "2026-10-21",
+    "bull": 36.9,
+    "neutral": 17.3,
+    "bear": 45.8,
+    "history": [
+      {
+        "label": "Crise\n2009",
+        "value": -51.0
+      },
+      {
+        "label": "COVID\n2020",
+        "value": -37.8
+      },
+      {
+        "label": "Bear\n2022",
+        "value": -28.4
+      },
+      {
+        "label": "Rally\nIA 2024",
+        "value": 23.1
+      },
+      {
+        "label": "Cor.\nFév 2025",
+        "value": -41.2
+      }
+    ],
+    "signals": [
+      {
+        "period": "Mars 2009 — Crise financière",
+        "spread": -51.0,
+        "signal": "Extrême peur",
+        "sp12": "~ +69 %",
+        "lesson": "Meilleur point d'entrée de la décennie"
+      },
+      {
+        "period": "Mars 2020 — Krach COVID",
+        "spread": -37.8,
+        "signal": "Extrême peur",
+        "sp12": "~ +54 %",
+        "lesson": "Accumulation graduelle favorable"
+      },
+      {
+        "period": "Nov. 2022 — Marché baissier",
+        "spread": -28.4,
+        "signal": "Extrême peur",
+        "sp12": "~ +26 %",
+        "lesson": "Point d'inflexion"
+      },
+      {
+        "period": "Janv. 2024 — Rallye IA",
+        "spread": 23.1,
+        "signal": "Extrême avidité",
+        "sp12": "N/D",
+        "lesson": "Prudence : réduire l'exposition"
+      },
+      {
+        "period": "Fév. 2025 — Correction",
+        "spread": -41.2,
+        "signal": "Extrême peur",
+        "sp12": "N/D",
+        "lesson": "Signal d'achat historique"
+      }
+    ],
+    "signals_note": "Rendements du S&P 500 à 12 mois : ordres de grandeur à titre indicatif (non recalculés automatiquement); N/D quand non vérifiés.",
+    "reading_note": "Lecture du 21 octobre 2026 : le pessimisme progresse (baissiers 45,8 % contre 36,9 % de haussiers, écart de −8,9 points; semaine précédente : 38,7 % contre 41,6 %). Le neutre est très faible (17,3 %). L'écart reste au-dessus du seuil d'achat contrarien (−20) : signal neutre."
+  },
+  "semis": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "note": "GPU IA — Blackwell / Rubin"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "note": "HBM / DRAM — mémoire IA"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "note": "Équipements de fabrication"
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC",
+      "note": "Fonderie n° 1 mondiale"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "note": "GPU data center — Instinct"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "note": "Machines EUV — quasi-monopole"
+    },
+    {
+      "ticker": "ON",
+      "name": "ON Semiconductor",
+      "note": "Semi. de puissance — EV / edge"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "note": "Équipements de gravure"
+    }
+  ],
+  "cyber": [
+    {
+      "ticker": "CHKP",
+      "name": "Check Point",
+      "note": "Pare-feu / sécurité réseau — profil value"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto",
+      "note": "Plateforme XDR / SIEM / IA"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "note": "Endpoint IA — plateforme Falcon"
+    },
+    {
+      "ticker": "ZS",
+      "name": "Zscaler",
+      "note": "Zero Trust / SASE cloud-natif"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "note": "Réseau global + Zero Trust"
+    },
+    {
+      "ticker": "S",
+      "name": "SentinelOne",
+      "note": "Endpoint autonome IA"
+    },
+    {
+      "ticker": "TENB",
+      "name": "Tenable",
+      "note": "Gestion des vulnérabilités"
+    },
+    {
+      "ticker": "VRNS",
+      "name": "Varonis",
+      "note": "Sécurité des données"
+    }
+  ],
+  "retail": [
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "note": "E-commerce n° 1 + AWS + IA"
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart",
+      "note": "Omnicanal — valorisation élevée"
+    },
+    {
+      "ticker": "ULTA",
+      "name": "Ulta Beauty",
+      "note": "Beauté — expérience en magasin"
+    },
+    {
+      "ticker": "DOL.TO",
+      "name": "Dollarama (TSX)",
+      "note": "Commerce discount canadien"
+    },
+    {
+      "ticker": "URBN",
+      "name": "Urban Outfitters",
+      "note": "FP Movement (activewear) en croissance"
+    },
+    {
+      "ticker": "BOOT",
+      "name": "Boot Barn",
+      "note": "Vêtements Western"
+    },
+    {
+      "ticker": "AEO",
+      "name": "American Eagle",
+      "note": "Aerie / numérique"
+    }
+  ],
+  "brands": [
+    {
+      "brand": "SKIMS",
+      "status": "Privée — IPO possible",
+      "theme": "Marque virale TikTok / Instagram",
+      "proxy": null
+    },
+    {
+      "brand": "FP Movement",
+      "status": "Via URBN (cotée)",
+      "theme": "Activewear premium en croissance",
+      "proxy": "URBN"
+    },
+    {
+      "brand": "Mango",
+      "status": "Privée",
+      "theme": "Expansion rapide aux États-Unis",
+      "proxy": null
+    },
+    {
+      "brand": "Tecovas",
+      "status": "Privée — IPO possible",
+      "theme": "Bottes Western — viralité 'cowboy chic'",
+      "proxy": null
+    },
+    {
+      "brand": "HOKA",
+      "status": "Via DECK (cotée)",
+      "theme": "Chaussures de course premium — expansion mondiale",
+      "proxy": "DECK"
+    },
+    {
+      "brand": "Reddit",
+      "status": "NASDAQ : RDDT",
+      "theme": "Publicité et commerce social",
+      "proxy": "RDDT"
+    },
+    {
+      "brand": "Shopify",
+      "status": "TSX / NYSE : SHOP",
+      "theme": "Plateforme e-commerce",
+      "proxy": "SHOP"
+    }
+  ],
+  "extra_tickers": [
+    "ASTS",
+    "TSLA"
+  ],
+  "wiki_titles": {
+    "MU": "Micron_Technology",
+    "ORCL": "Oracle_Corporation",
+    "AVGO": "Broadcom_Inc.",
+    "NVDA": "Nvidia",
+    "AMAT": "Applied_Materials",
+    "AMZN": "Amazon_(company)",
+    "CRM": "Salesforce",
+    "GOOGL": "Alphabet_Inc.",
+    "CSCO": "Cisco",
+    "ADBE": "Adobe_Inc.",
+    "TSLA": "Tesla,_Inc.",
+    "PLTR": "Palantir_Technologies",
+    "CRWD": "CrowdStrike",
+    "SNOW": "Snowflake_Inc.",
+    "PANW": "Palo_Alto_Networks",
+    "AMD": "AMD",
+    "INTC": "Intel",
+    "FTNT": "Fortinet",
+    "DUOL": "Duolingo",
+    "ASTS": "AST_SpaceMobile",
+    "MSFT": "Microsoft",
+    "WMT": "Walmart"
+  },
+  "trends_keywords": [
+    "stock market crash",
+    "buy stocks",
+    "bitcoin",
+    "recession",
+    "AI bubble"
+  ],
+  "social_sources_as_of": "2026-10-14",
+  "social_sources": [
+    {
+      "canal": "Reddit (direct)",
+      "mesure": "Mentions et ton des discussions de détaillants : r/wallstreetbets, r/stocks, r/investing, r/options, r/CanadianInvestor; crypto : r/CryptoCurrency, r/Bitcoin",
+      "acces": "Gratuit (flux JSON public), débit limité; souvent bloqué depuis les serveurs infonuagiques",
+      "limites": "Beaucoup de bruit et d'ironie; manipulation possible (« pump »)",
+      "statut": "Automatisé"
+    },
+    {
+      "canal": "ApeWisdom",
+      "mesure": "Agrège les mentions Reddit (et 4chan) par titre ou crypto : rang, mentions, votes, variation sur 24 h; filtres par sous-reddit",
+      "acces": "API gratuite, sans clé; les conditions d'utilisation ne sont pas précisées sur la page de l'API",
+      "limites": "Tiers non officiel; méthode de comptage propre au site",
+      "statut": "Automatisé"
+    },
+    {
+      "canal": "StockTwits",
+      "mesure": "Réseau dédié aux actions : symboles en tendance, score de tendance, nombre de listes de suivi",
+      "acces": "Palmarès public accessible sans clé lors de notre test du 14 octobre; limites de débit possibles",
+      "limites": "Biais généralement haussier; échantillon de membres actifs",
+      "statut": "Automatisé"
+    },
+    {
+      "canal": "Wikipédia (pages vues)",
+      "mesure": "Pages vues quotidiennes des articles de sociétés : attention du grand public",
+      "acces": "API REST gratuite, sans clé (en-tête User-Agent exigé)",
+      "limites": "Mesure l'attention, pas la direction; sensible aux nouvelles et aux événements",
+      "statut": "Automatisé"
+    },
+    {
+      "canal": "Google Trends",
+      "mesure": "Intérêt de recherche relatif de 0 à 100 (pas des volumes) : peur de krach, « buy stocks », bitcoin, récession",
+      "acces": "Site gratuit; API officielle annoncée en juillet 2025 mais encore sur invitation (alpha); pytrends archivé en avril 2025",
+      "limites": "Blocages fréquents (erreur 429) depuis les serveurs; échelle relative à la période",
+      "statut": "Automatisé (au mieux)"
+    },
+    {
+      "canal": "X (Twitter) / FinTwit",
+      "mesure": "Cashtags ($NVDA), comptes d'analystes et de traders, réaction immédiate aux nouvelles",
+      "acces": "Plus de niveau gratuit pour les nouveaux développeurs; paiement à l'usage : 0,005 $ par publication lue (environ 50 $ par exécution pour 100 titres × 100 publications); forfaits Basic (200 $/mois) et Pro fermés aux nouveaux",
+      "limites": "Coût élevé; robots et faux comptes; recherche récente limitée à 7 jours",
+      "statut": "Non intégré"
+    },
+    {
+      "canal": "Facebook / Instagram",
+      "mesure": "Groupes et pages publics d'investissement, tendances de consommation",
+      "acces": "CrowdTangle a été fermé; la Meta Content Library est réservée aux chercheurs d'institutions universitaires ou sans but lucratif (demande via ICPSR)",
+      "limites": "Inaccessible aux particuliers; groupes privés",
+      "statut": "Non intégré"
+    },
+    {
+      "canal": "YouTube",
+      "mesure": "Vidéos de finance les plus vues sur un titre durant les 7 derniers jours : engouement du grand public et des influenceurs",
+      "acces": "Clé API gratuite (Google Cloud, YouTube Data API v3). Selon la page officielle (mise à jour le 8 octobre 2026) : 100 recherches par jour (1 point chacune) et 10 000 points par jour pour les autres appels",
+      "limites": "Vues élevées ≠ intérêt à acheter; contenu promotionnel ou accrocheur; le robot utilise 20 recherches par jour",
+      "statut": "Automatisé (clé requise)"
+    },
+    {
+      "canal": "TikTok (StockTok, FinTok)",
+      "mesure": "Tendances virales de marques et de produits (utile pour les détaillants et les marques émergentes)",
+      "acces": "L'API de recherche est réservée aux chercheurs d'organismes sans but lucratif de régions approuvées (usage commercial exclu; 1 000 requêtes par jour). Le Creative Center ne permet plus que de consulter les 100 principaux mots-clics par secteur (restriction annoncée en 2024). Services tiers payants (dès environ 20 $/mois selon un fournisseur)",
+      "limites": "Aucune donnée officielle exploitable par un particulier; grattage de pages déconseillé (conditions d'utilisation)",
+      "statut": "Manuel (veille encadrée)"
+    },
+    {
+      "canal": "SEC EDGAR — formulaire 4",
+      "mesure": "Achats et ventes en marché ouvert déclarés par les dirigeants et administrateurs des sociétés américaines (45 jours)",
+      "acces": "Gratuit, sans clé. Limite de 10 requêtes par seconde; la SEC exige un en-tête User-Agent avec un nom et un courriel de contact (variable SEC_USER_AGENT)",
+      "limites": "Beaucoup de ventes sont planifiées (plans 10b5-1) : seuls les achats ouverts sont un signal fort; délai de déclaration jusqu'à 2 jours ouvrables",
+      "statut": "Automatisé (en-tête SEC requis)"
+    },
+    {
+      "canal": "SEDI (Canada)",
+      "mesure": "Transactions d'initiés des sociétés canadiennes (Dollarama, Shopify, etc.)",
+      "acces": "Gratuit sur le site sedi.ca; pas d'API publique connue",
+      "limites": "Consultation manuelle seulement",
+      "statut": "Manuel"
+    },
+    {
+      "canal": "Quiver Quantitative",
+      "mesure": "Mentions WallStreetBets, transactions d'initiés, élus du Congrès, contrats gouvernementaux",
+      "acces": "Niveau web gratuit; web à 15 $/mois; API à partir de 30 $/mois",
+      "limites": "API payante",
+      "statut": "Non intégré"
+    },
+    {
+      "canal": "Capitol Trades",
+      "mesure": "Transactions boursières des élus américains",
+      "acces": "Gratuit, sans compte",
+      "limites": "Délais de divulgation",
+      "statut": "Manuel"
+    },
+    {
+      "canal": "Unusual Whales / AltIndex",
+      "mesure": "Sentiment social, activité WallStreetBets, flux d'options, transactions d'élus",
+      "acces": "Unusual Whales dès 48 $/mois; AltIndex dès 29 $",
+      "limites": "Payant; méthodes propriétaires",
+      "statut": "Non intégré"
+    },
+    {
+      "canal": "StockGeist / LunarCrush / SentiSense",
+      "mesure": "Volume et ton des messages sociaux scorés : StockGeist (environ 2 200 titres), LunarCrush (surtout crypto), SentiSense (actions et FNB)",
+      "acces": "StockGeist : 50 $/mois, API par crédits; LunarCrush : données sociales dès 90 $/mois; SentiSense : gratuit jusqu'à 1 000 requêtes/mois, Pro 15 $/mois",
+      "limites": "Boîtes noires; couverture inégale",
+      "statut": "Non intégré"
+    },
+    {
+      "canal": "Discord, Telegram, Seeking Alpha, eToro",
+      "mesure": "Communautés privées, articles d'auteurs, portefeuilles d'investisseurs populaires",
+      "acces": "Majoritairement privés ou sans API publique",
+      "limites": "Non vérifiable; risque de promotion",
+      "statut": "Manuel"
+    }
+  ],
+  "manual_watch": {
+    "as_of": "",
+    "hashtags": [
+      "#stocktok",
+      "#fintok",
+      "#investing",
+      "#stockmarket",
+      "#tiktokmademebuyit"
+    ],
+    "how": "Chaque semaine, ouvrez TikTok (ou le Creative Center, onglet Hashtags) et notez les marques ou produits qui reviennent. Ajoutez une ligne dans « items » : date (AAAA-MM-JJ), canal, sujet, observation. Les lignes s'affichent dans le rapport.",
+    "items": []
+  },
+  "industry_defaults": {
+    "semis": "Semi-conducteurs",
+    "cyber": "Cybersécurité et réseaux",
+    "retail": "Commerce de détail"
+  },
+  "industry_overrides": {
+    "RDDT": "Plateformes Internet",
+    "SHOP": "Plateformes Internet",
+    "DECK": "Commerce de détail",
+    "URBN": "Commerce de détail",
+    "AMZN": "Plateformes Internet"
+  },
+  "universe_extra": [],
+  "_universe_aide": "Pour suivre une société de plus : ajoutez {\"ticker\": \"META\", \"name\": \"Meta Platforms\", \"industry\": \"Plateformes Internet\"} dans universe_extra. Elle apparaît dans la recherche et reçoit son historique complet dès la prochaine exécution."
+}
