@@ -1,0 +1,100 @@
+name: Rapport Social Investing quotidien
+
+on:
+  schedule:
+    # GitHub planifie en UTC et ignore l'heure d'été. On déclenche deux fois et
+    # l'étape "gate" ne laisse passer que l'exécution tombant à 17 h à Toronto
+    # (après la fermeture des bourses de 16 h : le rapport contient les clôtures du jour).
+    - cron: "17 21 * * 1-5"   # 17 h 17 en heure d'été (EDT)
+    - cron: "17 22 * * 1-5"   # 17 h 17 en heure d'hiver (EST)
+  workflow_dispatch:
+    inputs:
+      send_email:
+        description: "Envoyer le courriel (décocher pour seulement produire le PDF)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write   # pour publier l'historique de la plate-forme (docs/data)
+
+concurrency:
+  group: rapport-quotidien
+  cancel-in-progress: false
+
+jobs:
+  rapport:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Vérifier l'heure locale (Toronto)
+        id: gate
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          H=$(TZ=America/Toronto date +%H)
+          echo "Heure locale à Toronto : ${H} h (déclencheur : ${EVENT})"
+          if [ "$EVENT" = "schedule" ] && [ "$H" != "17" ]; then
+            echo "Hors de la fenêtre de 17 h : exécution ignorée."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Récupérer le dépôt
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: bot/requirements.txt
+
+      - name: Installer les dépendances
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          pip install -r bot/requirements.txt
+          pip install pytrends || echo "pytrends indisponible : Google Trends affichera N/D"
+
+      - name: Générer et envoyer le rapport
+        if: steps.gate.outputs.run == 'true'
+        env:
+          GMAIL_FROM: ${{ secrets.GMAIL_FROM }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TO_EMAILS: ${{ secrets.TO_EMAILS }}
+          # Facultatifs : sans eux, les sections EDGAR et YouTube affichent N/D
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          OUTPUT_DIR: ${{ runner.temp }}/reports
+          SEND: ${{ github.event_name != 'workflow_dispatch' || inputs.send_email }}
+        run: |
+          if [ "$SEND" = "true" ]; then
+            python bot/main.py
+          else
+            python bot/main.py --no-email
+          fi
+
+      - name: Publier l'historique de la plate-forme web
+        if: always() && steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "rapport-bot"
+          git config user.email "rapport-bot@users.noreply.github.com"
+          git add docs/data docs/rapports
+          if git diff --cached --quiet; then
+            echo "Aucun changement de données."
+          else
+            git commit -m "Données du $(TZ=America/Toronto date +%F)"
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push || echo "Push impossible : vérifier Settings > Actions > Workflow permissions (Read and write)."
+          fi
+
+      - name: Archiver le PDF (30 jours)
+        if: always() && steps.gate.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-${{ github.run_number }}
+          path: ${{ runner.temp }}/reports/*.pdf
+          retention-days: 30
+          if-no-files-found: ignore
